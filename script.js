@@ -1,5 +1,10 @@
 // Lista de links
-const links = [
+const links = [{
+    title: "W3Schools",
+    url: "https://www.w3schools.com/",
+    description: "Tutoriais simples e práticos para aprender desenvolvimento web do zero.",
+    tag: "Tutorial"
+},
     {
         title: "MDN Web Docs",
         url: "https://developer.mozilla.org/",
