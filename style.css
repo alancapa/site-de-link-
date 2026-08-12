@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #000000; /* Fundo totalmente preto */
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -23,19 +23,21 @@ header {
 }
 
 h1 {
-    color: #2c3e50;
+    color: #ffffff; /* Texto do título em branco para dar contraste */
     margin-bottom: 0.5rem;
 }
 
 p {
-    color: #7f8c8d;
+    color: #a0a0a0;
     margin-bottom: 1.5rem;
 }
 
 #searchInput {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    background-color: #121212; /* Fundo escuro para a caixa de busca */
+    color: #ffffff;
+    border: 1px solid #333333;
     border-radius: 8px;
     font-size: 1rem;
     outline: none;
@@ -56,16 +58,17 @@ p {
 }
 
 .link-card {
-    background: #ffffff;
+    background: #121212; /* Fundo dos cartões em cinza bem escuro */
+    border: 1px solid #222222;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .link-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
 }
 
 .link-title {
@@ -82,14 +85,14 @@ p {
 }
 
 .link-desc {
-    color: #555;
+    color: #cccccc; /* Texto descritivo claro para leitura */
     font-size: 0.95rem;
 }
 
 .tag {
     display: inline-block;
-    background-color: #00000;
-    color: #2980b9;
+    background-color: #1e293b;
+    color: #38bdf8;
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 0.8rem;
